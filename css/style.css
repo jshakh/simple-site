@@ -1,0 +1,581 @@
+body {
+    width: 1280px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    height: 323px;
+    background-color: #445162;
+    display: block;
+}
+
+
+
+h1 {
+    font-family: 'Arial';
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-left: 45px;
+
+}
+
+
+
+.header-product {
+    background-color: rgb(255, 255, 255);
+    width: 469px;
+    height: 214px;
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+
+}
+
+header li {
+    list-style-image: url(../img/blanc.png);
+    font-size: 20px;
+    font-family: 'Arial';
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-left: 45px;
+}
+
+.about-product {
+    display: block;
+    background-color: rgb(68, 81, 97);
+    width: 430px;
+    height: 245px;
+    position: relative;
+    top: -240px;
+    right: -710px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Arial';
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.about-container {
+    width: 1280px;
+    height: 345px;
+    background-color: white;
+    position: relative;
+    top: 325px;
+
+}
+
+.about-us-section p {
+    font-family: 'Arial';
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 653px;
+    height: 60px;
+    clear: both;
+}
+
+
+.about-us-section {
+    width: 1280px;
+    height: 345px;
+    margin-left: 50px;
+    padding-top: 15px;
+    display: block;
+}
+
+.about-us-section h2 {
+
+    float: left;
+}
+
+.pluses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 165px;
+    left: -100px;
+}
+
+.pluses-title {
+    display: block;
+    position: relative;
+    margin-top: 370px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.left-pluses li {
+    list-style-image: url(../img/plus.png);
+    list-style-position: inside;
+    margin-left: 110px;
+}
+
+.right-pluses li {
+    list-style-image: url(../img/plus.png);
+    list-style-position: inside;
+    margin-left: 5px;
+}
+
+.left-pluses {
+    width: 680px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.right-pluses {
+    width: 580px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-pluses p {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    text-align: left;
+    position: relative;
+    left: 40px;
+    top: -55px;
+}
+
+
+.right-pluses p {
+    position: relative;
+    left: 45px;
+    top: -55px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.scrinshots-img {
+    background-color: #445161;
+    width: 200px;
+    height: 150px;
+}
+
+.scrinshots-figcation {
+    position: relative;
+    top: -190px;
+    left: 215px;
+
+}
+
+.scrinshots-desc-title {
+    font-family: "Arial";
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.scrinshots-desc-text {
+    width: 359px;
+    height: 108px;
+    font-family: 'Arial';
+    color: #333333;
+    font-size: 16px;
+    font-weight: 00;
+    line-height: 24px;
+    float: left;
+    margin-top: -25px;
+}
+
+.scrinshots {
+    width: 1280px;
+    height: 487px;
+    position: relative;
+    top: 310px;
+    background-color: white;
+
+}
+
+.scrinshots h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial';
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+    padding-top: 50px;
+}
+
+.scrinshots-first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -195px;
+    margin-top: -10px;
+}
+
+.scrinshots-second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -195px;
+    position: relative;
+    top: -185px;
+}
+
+.reviews-title {
+    text-align: center;
+}
+
+.reviews-container {
+    height: 425px;
+    width: 1280px;
+    background-color: transparent;
+    position: relative;
+    top: 335px;
+}
+
+.userpic {
+    background-color: rgb(68, 81, 97);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: -43px;
+}
+
+
+
+.reviews-p-container {
+    font-family: 'Arial';
+    color: #333333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: left;
+    width: 483px;
+    height: 121px;
+    background-image: url(../img/review.png);
+    position: relative;
+    top: -72px;
+    left: 47px;
+
+}
+
+.reviews-p-container-text {
+    width: 445px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+
+.reviews-p span {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Arial';
+    color: rgb(152, 152, 152);
+    line-height: 0.1;
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+
+.reviews-first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1280px;
+
+}
+
+.reviews-second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1280px;
+    position: relative;
+    top: -60px;
+}
+
+
+.buy-it-now-section {
+    width: 1280px;
+    height: 656px;
+    position: relative;
+    top: 295px;
+    background-color: white;
+
+}
+
+
+
+.buy-it-now-containers {
+    margin-top: -165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1280px;
+    height: 656px;
+}
+
+.buy-it-now-title {
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.buy-it-now-first-container {
+    align-self: flex-end;
+    width: 300px;
+    height: 306px;
+    background-color: #445162;
+    border-radius: 2%;
+    margin-left: 125px;
+}
+
+.buy-it-now-second-container {
+    align-self: flex-end;
+    width: 300px;
+    height: 404px;
+    background-color: #445162;
+    border-radius: 2%;
+}
+
+.buy-it-now-third-container {
+    align-self: flex-end;
+    width: 300px;
+    height: 499px;
+    background-color: #445162;
+    border-radius: 2%;
+    margin-right: 125px;
+}
+
+.buy-button {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 260px;
+    height: 40px;
+    font-family: 'Arial';
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.buy-it-now-list {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+    text-align: left;
+    width: 242px;
+    position: relative;
+    top: -30px;
+
+}
+
+.buy-it-now-list .buy-button {
+    position: relative;
+    left: -20px;
+    top: 10px;
+}
+
+.buy-it-now-list-title {
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+    text-align: center;
+}
+
+.price {
+    display: block;
+    font-size: 40px;
+    font-family: "Arial";
+    color: rgb(68, 81, 98);
+    line-height: 0.6;
+    text-align: center;
+    background-color: white;
+    border: solid #445162 2px;
+    width: 296px;
+    height: 67px;
+    border-radius: 2px;
+    margin-top: -20px;
+}
+
+.contacts {
+    display: block;
+    position: relative;
+    top: 100px;
+    width: 1280px;
+    height: 505px;
+    background-color: #445162;
+}
+
+
+footer {
+    display: block;
+    position: relative;
+    top: 85px;
+    width: 1280px;
+    height: 25px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(68, 81, 98);
+    line-height: 2;
+    text-align: center;
+}
+
+
+.contacts-title {
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 175px;
+}
+
+
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1280px;
+    margin-top: -5px;
+}
+
+.form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 360px;
+}
+
+input:not(.send-button) {
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    border: solid transparent 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(68, 81, 98);
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+.send-button {
+    border: solid 0px transparent;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #445162;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(68, 81, 98);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    height: 40px;
+}
+
+textarea {
+    height: 170px;
+    width: 498px;
+    background-color: white;
+    border: solid transparent 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(68, 81, 98);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.contacts-list {
+    height: 240px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.contacts-list p {
+    margin-left: 5px;
+}
+
+.skype,
+.icq {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 26px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 23px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 22px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
