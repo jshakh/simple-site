@@ -1,2 +1,2 @@
 # simple-site
-GeekBrains third homework
+GeekBrains third homework.
