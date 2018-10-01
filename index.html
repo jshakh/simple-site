@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <title>Simple Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
         <h1>Product name</h1>
-        <figure class="header-product"> </figure>
+        <img class="header-product">
         <ul>
             <li>Put on this page information about your product</li>
             <li>A detailed description of your product </li>
@@ -25,8 +26,9 @@
                     <h2>About your product</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p><br>
                     <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde per<wbr>ferendis nemo debitis dolor.</p>
-                    <video class="about-product" width="430px" height="245px" controls>
-  <source src="https://youtu.be/QmBL8M0ee_Mcontrols autobuffer" type="video">
+                    <video class="about-product" autoplay muted loop id="myVideo">
+  <source src="myVideo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
 </video>
                 </article>
             </section>
@@ -108,16 +110,14 @@
                     <article class="reviews-p"> <img class="userpic">
                         <div class="reviews-p-container">
                             <p class="reviews-p-container-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen<wbr>derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>
-                                    <p>Lourens S.</p>
+                            <span> Lourens S.
                                 </span>
                         </div>
                     </article>
                     <article class="reviews-p"> <img class="userpic">
                         <div class="reviews-p-container">
                             <p class="reviews-p-container-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen<wbr>derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>
-                                    <p>Lourens S.</p>
+                            <span> Lourens S.
                                 </span>
                         </div>
                     </article>
@@ -126,16 +126,14 @@
                     <article class="reviews-p"> <img class="userpic">
                         <div class="reviews-p-container">
                             <p class="reviews-p-container-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen<wbr>derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>
-                                    <p>Lourens S.</p>
+                            <span> Lourens S.
                                 </span>
                         </div>
                     </article>
                     <article class="reviews-p"> <img class="userpic">
                         <div class="reviews-p-container">
                             <p class="reviews-p-container-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehen<wbr>derit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                            <span>
-                                    <p>Lourens S.</p>
+                            <span> Lourens S.
                                 </span>
                         </div>
                     </article>
@@ -216,7 +214,12 @@
                     <div class="phone"><img src="img/phone.png">
                         <p>80 00 4568 55 55</p>
                     </div>
-                    <div class="social-icons"><img src="img/social-buttons.png"></div>
+                    <div class="social-icons">
+                        <i class="fab fa-twitter-square"></i><i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-google-plus"></i>
+                        <i class="fab fa-youtube-square"></i>
+                    </div>
 
 
                 </div>
@@ -224,7 +227,7 @@
         </section>
     </div>
     <footer>
-        <p>Copyright © 2014 Product name · PSD HTML CSS</p>
+        <p>Copyright &copy; 2014 Product name · PSD HTML CSS</p>
     </footer>
 </body>
 

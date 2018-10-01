@@ -579,3 +579,7 @@ textarea {
     line-height: 1.5;
     text-align: left;
 }
+
+i {
+    color: white;
+}
